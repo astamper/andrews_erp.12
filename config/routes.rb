@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :shipping_addresses
+
   resources :stock_types
 
   resources :stocks
